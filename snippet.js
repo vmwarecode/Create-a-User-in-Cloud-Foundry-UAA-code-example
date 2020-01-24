@@ -5,7 +5,7 @@
 */
 
 
-/ Create user in UAA
+// Create user in UAA
 var uaaApi = System.getModule("com.vmware.pso.util").getConfigElementAttributeValue("PSO/PaaS", "REST", "uaaApi");
 var user = "testUser@yourOrg.com";
 var userName = "Coke";
